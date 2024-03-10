@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: DMSans, sans-serif;
+  }
+  @font-face {
+    font-family: DMSans;
+    src: url(fonts/DMSans-VariableFont_opsz\wght.ttf);
+  }
+
+  :root{
+    --color-pishta:  #3DB9B5;
+    --color-gray:#544c4b;
+    --font-family--gillsans: DMSans, sans-serif;
+  }
+  .font-DMSans{
+  font-family : var(--font-family--gillsans)
+  }
+  #btn-pishta{
+    background-color: var(--color-pishta);
+  }
+  .color-gray{
+    color: var(--color-gray);
+  }
