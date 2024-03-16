@@ -15,8 +15,8 @@
 <body>
 <header class="container mt-sm-4 container-sm">
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid d-flex justify-content-evenly align-items-center gap-5">
-          <img src="images/sweet bakery.png" alt="logo" class="img-fluid" width="120">
+        <div class="container-fluid d-flex justify-content-lg-evenly align-items-lg-center  gap-5">
+          <img src="images/sweet bakery.png" alt="logo" class="img-lg-fluid" width="100">
           <!-- hamburger  -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,7 +40,7 @@
           </div>
             <!-- 2st div of nav  -->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav w-75 d-flex-sm justify-content-evenly align-items-center">
+                <ul class="navbar-nav w-75 w-sm-100 d-flex flex-lg-row justify-content-evenly flex-sm-column justify-content-sm-start align-items-sm-start">
 
                   <li class="nav-item">
                     <i class="fa-brands fa-google-plus color-gray mx-2"></i>
@@ -63,6 +63,273 @@
       </nav>
 </header>
 <!-- header completed  -->
+<section class="container-fluid w-100 pb-5">
+  <div id="carouselExampleCaptions" class="carousel slide container-fluid">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <!-- 1st slide  -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/bakery2-1920x1280.jpg" class="d-block w-100" alt="slider1">
+        <div class="carousel-caption h-75 d-flex flex-column flex-wrap align-items-lg-start align-items-sm-center align-items-md-center" >
+          <h5 class="honeofslider">Yummy Delicious Сakes</h5>
+          <p class="htwoofslider">We accept orders for birthdays, weddings and celebrations</p>
+          <div class="d-flex align-items-sm-center align-items-md-center align-items-lg-start w-75 me-lg-5">
+            <!-- button 1 -->
+       <button type="button" class="btn btn-secondary btn-sm rounded-pill fw-bold btn-one d-flex align-items-center justify-content-center" id="btn-pishta">Order Sweets!</button>
+       <!-- btn 2  -->
+     <button type="button" class="btn btn-primary btn-lg rounded-pill btn-two" id="btn-pishta">Order Sweets!</button>
+   </div>
+        </div>
+      </div>
+      <!-- 2nd slide  -->
+      <div class="carousel-item">
+        <img src="images/cake 3.jpg" class="d-block w-100" alt="slider2">
+        <div class="carousel-caption h-75 d-flex flex-flow-wrap flex-column align-items-lg-start align-items-sm-center align-items-md-center" >
+          <h5 class="honeofslider">Enjoy Our Food Expirience</h5>
+          <p class="htwoofslider">We offer a large assortment from cakes to small pastries</p>
+          <div class="d-flex flex-column flex-flow-wrap align-items-sm-center align-items-md-center align-items-lg-start w-75 me-lg-5">
+            <!-- button 1 -->
+       <button type="button" class="btn btn-secondary btn rounded-pill fw-bold px-2 btn-one" id="btn-pishta">Order Sweets!</button>
+       <!-- btn 2  -->
+     <button type="button" class="btn btn-primary btn-lg rounded-pill btn-two" id="btn-pishta">Order Sweets!</button>
+   </div>
+        </div>
+      </div>
+      <!-- 3rd slide -->
+      <div class="carousel-item">
+        <img src="images/SLIDER 4.webp" class="d-block w-100" alt="slide3">
+        <div class="carousel-caption h-75 d-flex flex-column flex-wrap align-items-lg-start align-items-sm-center align-items-md-center" >
+          <h5 class="honeofslider">Welcome <br />
+            to Sweet Bakery</h5>
+          <p class="htwoofslider">Opening Hours <br />
+            Mondey-Friday: 07:30 AM - 23:00 PM <br />
+            Weekends: 07:30 AM - 03:00 PM</p>
+          <div class="d-flex align-items-center flex-flow-wrap align-items-md-center align-items-lg-start w-10">
+                 <!-- button 1 -->
+            <button type="button" class="btn btn-secondary btn-sm rounded-pill fw-bold px-2 btn-one" id="btn-pishta">Order Sweets!</button>
+            <!-- btn 2  -->
+          <button type="button" class="btn btn-primary btn-lg rounded-pill btn-two" id="btn-pishta">Order Sweets!</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+  <!-- slider end  -->
+</section>
+<!-- section end slider -->
+<div class=" container-fluid specmain h-auto d-flex flex-wrap justify-content-sm-center align-items-sm-center">
+  <h1 id="ourspec" class="fw-bold text-align-center w-100 flex-flow-wrap">Our Specialties</h1>
+
+            <div Class="specimgpara">
+                <!-- FIRST ONE -->
+                <div>
+                    <div class="imgdiv"><img src="images/Cupcakes.jpg" alt="Cupcakes" class="imgspec"> </div>
+                    <p class="paraspec">Cupcakes</p>
+                </div>
+                <!-- SECOND ONE -->
+                <div>
+                    <div class="imgdiv"> <img src="images/Macarons.jpg" alt="Macarons" class="imgspec"> </div>
+                    <p class="paraspec">Macarons</p>
+                </div>
+                <!-- THIRD ONE -->
+                <div>
+                    <div class="imgdiv"> <img src="images/small cakes.jpg" alt="Small Cakes" class="imgspec"> </div>
+                    <p class="paraspec">Small Cakes</p>
+                </div>
+                <!-- FORTH ONE -->
+                <div>
+                    <div class="imgdiv"> <img src="images/Croissants.jpg" alt="Croissants" class="imgspec"> </div>
+                    <p class="paraspec">Croissants</p>
+                </div>
+                <!-- FIFTH ONE -->
+                <div>
+                    <div class="imgdiv"><img src="images/Apple Pie.jpg" alt="Apple Pie" class="imgspec"> </div>
+                    <p class="paraspec">Apple Pie</p>
+                </div>
+                <!-- SIXTH ONE -->
+                <div>
+                    <div class="imgdiv"><img src="images/Cheesecake.jpg" alt="Cheesecake" class="imgspec"> </div>
+                    <p class="paraspec">Cheesecake</p>
+                </div>
+
+</div>
+<!-- end of speciality  -->
+<div class="magicdiv d-flex flex-flow-wrap">
+  <div class="magicdiv2 d-flex flex-flow-wrap">
+      <div>
+          <i class="fa-sharp fa-solid fa-cake-candles cakeicon"></i>
+      </div>
+      <div class="d-flex flex-flow-wrap">
+          <h1 id="magich1" class="fw-bold">Magic Processing</h1>
+      </div>
+      <div class="d-flex flex-flow-wrap">
+          <p id="magicpara">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe minus nisi, nostrum commodi
+              dignissimos officiis et quaerat corrupti facilis quasi.
+          </p>
+      </div>
+      <div>
+        <button type="button" id="disbutton" class="btn btn-outline-info btn-lg">Discover More</button>
+      </div>
+  </div>
+</div>
+<!-- END OF MAGIC  -->
+<div>
+  <div class="creaticon">
+      <i class="fa-sharp fa-solid fa-cake-candles cakeicon" id="pinkcake"></i>
+      <h1 id="creationh1">Our Creations</h1>
+  </div>
+  <div class="creationdiv">
+      <div><img src="images/frozen.jpg" alt="Frozen" class="creationimg"> </div>
+      <div><img src="images/buntiescupies.jpg" alt="bunties" class="creationimg"> </div>
+      <div><img src="images/image3.jpg" alt="image3" class="creationimg"></div>
+      <div><img src="images/image4.jpg" alt="image4" class="creationimg"></div>
+      <div><img src="images/image5.jpg" alt="image5" class="creationimg"></div>
+      <div><img src="images/image6.jpg" alt="image6" class="creationimg"></div>
+      <div><img src="images/image7.jpg" alt="image7" class="creationimg"></div>
+      <div><img src="images/image8.jpg" alt="image8" class="creationimg"></div>
+  </div>
+  <!-- CREATION PORTION ENDED  -->
+  <div class="recipediv">
+      <div class="creaticon">
+          <i class="fa-sharp fa-solid fa-cake-candles cakeicon" id="pinkcake"></i>
+          <h1 id="creationh1">Recipes For You</h1>
+      </div>
+      <div id="contentofrecipe">
+          <p class="recipepara"><span id="Ingredients">Ingredients:</span><br />
+              6 large Bramley apples, finely sliced
+              <br /> 200g unsalted butter
+              <br /> 140g raisins
+              <br /> 100g soft brown sugar
+              <br /> 4 eggs
+              <br /> 200g self-raising flour
+          </p>
+      </div>
+      <div class="recipeimgdiv">
+          <img src="images/cups.jpg" alt="cup" id="cup" class="recipeimgdiv">
+          <h4>Eve's Pudding</h4>
+      </div>
+
+  </div>
+  <!-- end of recipe  -->
+  <div class="clientsays">
+
+      <div>
+          <h1 id="clientheading">Clients Say</h1>
+      </div>
+      <div class="rowsclients">
+          <!-- FIRST div  -->
+          <div class="firstrow">
+              <!-- 1st face  -->
+              <div class="facediv">
+                  <div>
+                      <img src="images/face1.jpg" alt="face1" id="face1img" class="faces">
+                  </div>
+                  <div class="paracontentfaces">
+                      <p class="facespara">Quas magni ab officia vero aperiam voluptate eaque deleniti, quae
+                          aliquam, est!</p>
+                      <p class="namediv">Anna White <br /> <span class="custom">Customer</span></p>
+                  </div>
+
+              </div>
+              <!-- 3rd face  -->
+              <div class="facediv">
+                  <div>
+                      <img src="images/face3.jpg" alt="face3" id="face3img" class="faces">
+                  </div>
+                  <div class="paracontentfaces">
+                      <p class="facespara">Assumenda numquam, minima sapiente enim tempore modi autem
+                          obcaecati voluptatum, natus sequi.</p>
+                      <p class="namediv">Kate Gray<br /> <span class="custom">Customer</span></p>
+                  </div>
+
+              </div>
+          </div>
+          <!-- 2nd div  -->
+          <div class="firstrow">
+              <!-- 2nd Face  -->
+              <div class="facediv">
+                  <div>
+                      <img src="images/face2.jpg" alt="face2" id="face2img" class="faces">
+                  </div>
+                  <div class="paracontentfaces">
+                      <p class="facespara">Qui id autem reprehenderit porro, amet unde quia eligendi
+                          repudiandae! Quaerat, nesciunt.</p>
+                      <p class="namediv">Liza Green <br /> <span class="custom">Customer</span></p>
+                  </div>
+
+              </div>
+              <!-- 4th face  -->
+              <div class="facediv">
+                  <div>
+                      <img src="images/face4.jpg" alt="face4" id="face4img" class="faces">
+                  </div>
+                  <div class="paracontentfaces">
+                      <p class="facespara">Numquam quisquam libero quam veritatis. Asperiores voluptate
+                          quos illo debitis aperiam?</p>
+                      <p class="namediv">David Black <br /> <span class="custom">Customer</span></p>
+
+                  </div>
+
+              </div>
+          </div>
+
+      </div>
+  </div>
+  <!-- END OF CLIENTS   -->
+  <!-- Get Our Sweet News -->
+  <div class="GetOurSweetNews getdivforflex">
+      <div>
+          <h1 id="getoursweeth">Get Our Sweet News</h1>
+      </div>
+      <div id="emailsubs">
+          <input type="email" placeholder="Your email adress" id="getoursweetemail">
+          <button type="submit" id="xSubscribe">Subscribe</button>
+      </div>
+      <div>
+          <p id="followus">FOLLOW US</p>
+      </div>
+      <div id="icons">
+          <i class="fa-brands fa-youtube iconclass"></i>
+          <i class="fa-brands fa-pinterest iconclass"></i>
+          <i class="fa-brands fa-instagram iconclass"></i>
+      </div>
+
+
+  </div>
+  <!-- end of Get Our Sweet News -->
+  <footer>
+      <div class="listtwo">
+          <ul class="ullist">
+              <li>About us</li>
+          <li>Vacancies</li>
+          <li>Contacts</li>
+      </ul>
+      </div>
+      <div class="logodivpara">
+          <img src="images/sweet bakery.png" alt="logo" id="logotwo">
+          <p>© Copyright 2020 Mobirise - All Rights </p>
+              <p>Reserved  </p>
+      </div>
+      <div>
+          <p>Make an Order</p>
+      </div>
+  </footer>
+  </div>
+
 </body>
 
 </html>
